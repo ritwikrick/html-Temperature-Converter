@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(99, 89, 133);
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+.icon{
+    font-size: 2rem;
+    color: grey;
+}
+.celcius , .Farenheit , .Kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+input{
+    height: 40px;
+    width: 240px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 800px;
+}
+.iconC , .iconF , .iconK{
+    font-size: 1.5rem;
+    height: 40px;
+    color: white;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    height: 20px;
+    width: 120px;
+    margin-left: 105px;
+    background-color: whitesmoke;
+}
+button:hover{
+    cursor: pointer;
+}
+input ::-webkit-inner-spin-button,
+input ::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+}
